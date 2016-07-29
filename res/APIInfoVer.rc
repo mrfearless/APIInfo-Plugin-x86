@@ -1,0 +1,27 @@
+#define VERINF1 1
+VERINF1 VERSIONINFO
+FILEVERSION 1,0,0,3
+PRODUCTVERSION 1,0,0,3
+FILEOS 0x00000004
+FILETYPE 0x00000002
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "fearless @ www.LetTheLight.in\0"
+      VALUE "FileVersion", "1.0.0.3\0"
+      VALUE "FileDescription", "APIInfo plugin for x32dbg\0"
+      VALUE "InternalName", "APIInfo.dll\0"
+      VALUE "LegalCopyright", "fearless (C) 2016 www.LetTheLight.in\0"
+      VALUE "LegalTrademarks", "fearless (C) 2016 www.LetTheLight.in\0"
+      VALUE "OriginalFilename", "APIInfo.dp32\0"
+      VALUE "ProductName", "APIInfo\0"
+      VALUE "ProductVersion", "1.0.0.3\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 0x04B0
+  END
+END

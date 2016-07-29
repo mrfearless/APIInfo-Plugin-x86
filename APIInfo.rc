@@ -1,0 +1,3 @@
+#include "Res/APIInfoDlg.rc"
+#include "Res/APIInfoRes.rc"
+#include "Res/APIInfoVer.rc"

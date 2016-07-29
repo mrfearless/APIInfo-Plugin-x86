@@ -1,0 +1,36 @@
+#define IDD_APIInfoOptionsDlg 1000
+#define IDC_GRP1 1010
+#define IDC_GrpAPIFilesToInclude 1001
+#define IDC_BtnAPIInfoOptionsOk 1014
+#define IDC_LV_APIFILES 1002
+#define IDC_GrpAPIDisplayOptions 1003
+#define IDC_RbDisplayModuleAndFunction 1007
+#define IDC_RbDisplayFunctionDef 1008
+#define IDC_RbDisplayModuleOnly 1005
+#define IDC_RbDisplayFunctionOnly 1006
+#define IDC_RbDisplayFunctionDefParams 1009
+#define IDC_BtnAPIInfoOptionsCancel 1013
+#define IDC_RbDisplayNothing 1004
+#define IDC_ChkAutoLoad 1011
+#define IDC_ChkPreserveExistingComments 1012
+IDD_APIInfoOptionsDlg DIALOGEX 6,6,322,232
+CAPTION "APIInfo Options"
+FONT 8,"Segoe UI",400,0
+STYLE 0x10C80800
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "API files to include:",IDC_GrpAPIFilesToInclude,"Button",0x50000007,5,7,118,192,0x00000000
+  CONTROL "",IDC_LV_APIFILES,"SysListView32",0x5001400D,10,24,107,168,0x00000200
+  CONTROL "API Display Options:",IDC_GrpAPIDisplayOptions,"Button",0x50000007,130,7,184,133,0x00000000
+  CONTROL "Display module name only",IDC_RbDisplayModuleOnly,"Button",0x50010009,144,41,160,12,0x00000000
+  CONTROL "Display function name only",IDC_RbDisplayFunctionOnly,"Button",0x50010009,144,61,160,12,0x00000000
+  CONTROL "Display module and function name",IDC_RbDisplayModuleAndFunction,"Button",0x50010009,144,81,160,12,0x00000000
+  CONTROL "Display function definition",IDC_RbDisplayFunctionDef,"Button",0x50010009,144,100,160,12,0x00000000
+  CONTROL "Display function definition && parameters ",IDC_RbDisplayFunctionDefParams,"Button",0x50010009,144,120,160,12,0x00000000
+  CONTROL "&Cancel",IDC_BtnAPIInfoOptionsCancel,"Button",0x50010000,130,206,88,17,0x00000000
+  CONTROL "O&k",IDC_BtnAPIInfoOptionsOk,"Button",0x50010001,226,206,88,17,0x00000000
+  CONTROL "Automatically apply API info on entry",IDC_ChkAutoLoad,"Button",0x50030003,144,162,158,12,0x00000000
+  CONTROL "Display nothing (disable plugin)",IDC_RbDisplayNothing,"Button",0x50010009,144,22,160,12,0x00000000
+  CONTROL "Preserve existing user made comments",IDC_ChkPreserveExistingComments,"Button",0x50030003,144,179,158,12,0x00000000
+  CONTROL "Other Options:",IDC_GRP1,"Button",0x50000007,130,147,184,52,0x00000000
+END

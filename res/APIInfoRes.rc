@@ -1,0 +1,6 @@
+#define MANIFEST 						24
+1						MANIFEST  DISCARDABLE "APIInfo.xml"
+101						RCDATA    DISCARDABLE "Images/APIInfo.png"
+102						RCDATA    DISCARDABLE "Images/APIInfoOptions.png"
+103						RCDATA    DISCARDABLE "Images/APIInfoGenAPI.png"
+100						ICON      DISCARDABLE "Images/APIInfo.ico"
