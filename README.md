@@ -26,9 +26,12 @@ A plugin to populate the comments with windows api calls
 ## Notes
 
 The API defintion files are created with a utility called ApiCreator (currently unreleased) which takes a selected windows sdk header file and parses it, outputting the function definitions into a file which uses a standard .ini format
+
 Each function name is the stored as a section name, the key values for parameters, parameter count and full definition (key '@') are stored under this section name for easy retrieval with standard win32 api calls: [GetPrivateProfileString](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724353(v=vs.85).aspx) & [GetPrivateProfileInt](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724345(v=vs.85).aspx)
 Some of the definition files have to be manually fixed up afterwards, so there may be errors or omissions. If you require a specific api file generated, feel free to contact me.
-The comments where APIInfo thinks there is a parameter may be incorrect in some cases
+
+The comments where APIInfo thinks there is a parameter may be incorrect in some cases.
+
 There isnt an x64 version of the plugin at this time due to the differences in calling conventions for 64bit, and would require considerable more time than i can spare to look into ways of maybe generating this info.
 
 ## Information
