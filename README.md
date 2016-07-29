@@ -1,6 +1,6 @@
 # APIInfo Plugin (x86) - A Plugin For x64dbg
 
-![](https://github.com/mrfearless/APIInfo-Plugin-x86/blob/master/images/APIInfo.png) [Current version: 1.0.0.3 - Last updated: 26/06/2016](https://github.com/mrfearless/APIInfo-x86/releases/latest) There is no x64 version of this plugin currently.
+![](https://github.com/mrfearless/APIInfo-Plugin-x86/blob/master/images/APIInfo.png) [Current version: 1.0.0.3 - Last updated: 26/06/2016](https://github.com/mrfearless/APIInfo-Plugin-x86/releases/latest) There is no x64 version of this plugin currently.
 
 ## Overview
 
