@@ -6,7 +6,7 @@
 
 A plugin to populate the comments with windows api calls
 
-_Note:_ APIInfo plugin has been superseded by ThunderCls's xAnalyzer plugin.
+**Note:** APIInfo plugin has been superseded by ThunderCls's xAnalyzer plugin.
 
 xAnalyzer supports both x86 and x64 versions of x64dbg.
 
