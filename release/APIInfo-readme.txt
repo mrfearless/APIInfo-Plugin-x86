@@ -6,6 +6,18 @@
 ;
 ;-------------------------------------------------------------------------------------
 
+NOTE
+----
+
+APIInfo plugin has been superseded by ThunderCls's xAnalyzer plugin.
+
+xAnalyzer supports both x86 and x64 versions of x64dbg.
+
+For more information, please visit: https://github.com/ThunderCls/xAnalyzer
+
+
+
+
 About
 -----
 
